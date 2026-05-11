@@ -1,5 +1,5 @@
 {% set name = "guppy3" %}
-{% set version = "3.1.6" %}
+{% set version = "3.1.7" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/guppy3-{{ version }}.tar.gz
-  sha256: 8a7ce2a6bbe2f79c75f26cfb3d33f37461c8632b3bcb436133427d8ae27c7cfe
+  sha256: 4933cf325837f9401a855b6dfa773e4e0972ecaacafb5d378a3a787024a622b4
 
 build:
   number: 0
