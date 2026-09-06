@@ -7,11 +7,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/guppy3-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/guppy3-{{ version }}.tar.gz
   sha256: 4933cf325837f9401a855b6dfa773e4e0972ecaacafb5d378a3a787024a622b4
 
 build:
-  number: 0
+  number: 1
   skip: true  # [py2k]
   script: {{ PYTHON }} -m pip install . -vv
 
